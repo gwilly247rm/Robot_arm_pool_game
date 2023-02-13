@@ -1,0 +1,31 @@
+realsense:
+  move2cueX: -81.25
+  move2cueY: 70
+  move2cueZ: 119
+zed:
+  move2realsenseX: -48.160351129015908
+  move2realsenseY: 35.42773622240869
+arm:
+  tool:
+    - 33.181249999999999
+    - 80.75
+    - 0
+    - 0
+    - 0
+    - 0
+  acceleration: 20
+find_degree:
+  canny: 770
+  hough: 200
+  degreeLimit: 3.50000041100283
+white_threshold:
+  realsense:
+    threshold_min: 107
+    kernel_size: 23
+  zed:
+    threshold_min: 103
+    kernel_size: 30
+find_white_center:
+  min_dist: 115
+  canny_edge_detection: 130
+  center_detection: 81
